@@ -5,11 +5,15 @@ article, aside, footer, header, hgroup, nav, section, main {
   font-weight: 400;
   font-family: 'San Fransisco';
   src: url('/fonts/SFProDisplay-Regular.ttf') format('ttf');
+  url('/fonts/SFProDisplay-Regular.woff') format('woff2');
+  url('/fonts/SFProDisplay-Regular.woff2') format('woff2');
 }
 @font-face {
   font-weight: 100;
   font-family: 'San Fransisco';
   src: url('/fonts/SFProDisplay-Light.ttf') format('ttf');
+  url('/fonts/SFProDisplay-Regular.woff') format('woff2');
+  url('/fonts/SFProDisplay-Regular.woff2') format('woff2');
 }
 
 body {
