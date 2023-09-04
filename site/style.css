@@ -4,12 +4,12 @@ article, aside, footer, header, hgroup, nav, section, main {
 @font-face {
   font-weight: 400;
   font-family: 'San Fransisco';
-  src: url(/fonts/SFProDisplay-Regular.ttf);
+  src: url('/fonts/SFProDisplay-Regular.ttf') format('ttf');
 }
 @font-face {
   font-weight: 100;
   font-family: 'San Fransisco';
-  src: url(/fonts/SFProDisplay-Light.ttf);
+  src: url('/fonts/SFProDisplay-Light.ttf') format('ttf');
 }
 
 body {
