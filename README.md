@@ -1,3 +1,3 @@
 # coursera-test
 
-link: https://quietdutta.github.io/coursera-test/index.html
+https://quietdutta.github.io/coursera-test/site/index.html
