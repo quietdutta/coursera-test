@@ -1,0 +1,127 @@
+article, aside, footer, header, hgroup, nav, section, main {
+  display:block;
+}
+@font-face {
+  font-weight: 400;
+  font-family: 'San Fransisco';
+  src: url(/fonts/SFProDisplay-Regular.ttf);
+}
+@font-face {
+  font-weight: 100;
+  font-display: light;
+  font-family: 'San Fransisco';
+  src: url(/fonts/SFProDisplay-Light.ttf);
+}
+
+body {
+  background-color: #F2F2F4;
+  font-family: 'San Fransisco', sans-serif;
+  width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  padding: 0;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'San Fransisco', serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+  font-weight: 100;
+  font-style: light;
+    font-size: 2.5em;
+    font-family: 'San Fransisco', serif;
+    margin-top: 0;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: 'San Fransisco', serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*TOPNAV*/
+.topnav {
+  display: inline-block;
+  width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  text-align: center;
+  overflow: hidden;
+  color: black;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .topnav a:hover {
+  color: #D4AF94;
+  text-decoration: none;
+  }
+
+header {
+  width: 90%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    text-align: center;
+    padding: 1px;
+}
+
+content {
+  width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.highlight {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.highlight a {
+  color: #78001A;
+  text-decoration: none;
+}
+
+.highlight a:hover {
+  color: #D4AF94;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
