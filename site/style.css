@@ -8,7 +8,6 @@ article, aside, footer, header, hgroup, nav, section, main {
 }
 @font-face {
   font-weight: 100;
-  font-display: light;
   font-family: 'San Fransisco';
   src: url(/fonts/SFProDisplay-Light.ttf);
 }
