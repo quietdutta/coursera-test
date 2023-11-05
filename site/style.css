@@ -11,8 +11,7 @@ h1 {
 }
 
 body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+	background-color: #FFFF00;
 
 }
 
@@ -32,7 +31,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: beige;
 	width: 100%;
 	height: 200px;
 	font-family: Helvetica;
@@ -52,7 +51,7 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: lightblue;
 }
 
 #beef {
@@ -66,7 +65,7 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
+	background-color: red;
 }
 
 #sushi {
@@ -79,7 +78,7 @@ section {
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #6495ED;
+	background-color: maroon;
 	color: white;
 	padding: 5px;
 }
